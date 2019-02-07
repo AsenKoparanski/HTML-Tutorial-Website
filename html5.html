@@ -1,0 +1,171 @@
+<!DOCTYPE html >
+
+<html lang="en">
+<meta charset="utf-8">
+    <head>
+        <title>HTML</title>
+        <link rel="stylesheet" type="text/css" href="CSS/html5.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/hovernavigationonly.css"/>
+    </head>
+        <body>
+
+        
+        
+        <header>
+        <h1>HTML Tutorials</h1> 
+        </header> 
+        <div id="topic">
+        
+
+<ul id="nav">
+<li><a href="index.html" class="hvr-sweep-to-top">Home </a> </li>  
+  <li class="dropdown">
+    <a href="html.html" class="hvr-sweep-to-top"> HTML</a>
+    <div class="dropdown-content">
+     <a href="tags.html">Tags</a>
+      <a href="attributes.html">Attributes</a>
+      <a href="formatting.html">Formatting</a>
+      <a href="blocks.html">Blocks</a> 
+      <a href="listsandtables.html">Lists/Tables</a>
+      <a href="xhtml1.html">XHTML 1.0</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="html5.html" class="hvr-sweep-to-top"> HTML5</a>
+   
+  </li>
+  <li> <a href="editor.html" class="hvr-sweep-to-top">HTML Editor</a> </li>
+
+</ul>
+
+        
+ 
+        </div>
+    
+        <div class="border"></div>
+        
+    
+        <div class="section">
+        
+
+        
+        <h2> HTML5</h2> 
+        <hr/>
+        <p class="text">
+           <div id="pic">
+        <h3 align="center">HTML5 page structure</h3>
+        <img id="structure" alt="HTML5 page" src="Images/html5page.png">
+        </div>
+              
+         <h3 class="moveright">What's different in HTML5?</h3>
+         <p class="text"> HTML5 has a changed and simplified DOCTYPE and offers new semantics which are block-level elements.
+        <p class="pushin">HTML5 DOCTYPE:<br/>
+      <span class="borders"> &lt;!DOCTYPE html&gt;</span></p>
+
+
+        <p class="pushin">The <code>&lt;header&gt;</code> tag which defines the heading of the page.<br/>
+      <span class="borders"> &lt;header&gt;HEADER&lt;/header&gt;</span></p>
+
+        <p class="pushin">The <code>&lt;navigation&gt;</code> tag which defines a set of navigation links/menus.<br/>
+      <span class="borders"> &lt;nav&gt;NAVIGATION&lt;/nav&gt;</span></p>
+
+      <p class="pushin">The <code>&lt;section&gt;</code> tag defines a section part of the page and has its own heading.<br/>
+      <span class="borders"> &lt;section&gt;SECTION&lt;/section&gt;</span></p>
+
+      <p class="pushin">The <code>&lt;article&gt;</code> tag defines self-contained content and should make sense on its own. Can be nested with section both ways.<br/>
+      <span class="borders"> &lt;article&gt;ARTICLE&lt;/article&gt;</span></p>
+
+      <p class="pushin">The <code>&lt;aside&gt;</code> tag defines content that is placed aside from the main content, like a sidebar. It should also be related to the surrounding content information.<br/>
+      <span class="borders"> &lt;aside&gt;SIDEBAR&lt;/aside&gt;</span></p>
+
+      <p class="pushin">The <code>&lt;footer&gt;</code> tag defines the footer for a document and typically cotaints information about the author, copyright, links, etc.<br/>
+      <span class="borders"> &lt;footer&gt;FOOTER&lt;/footer&gt;</span></p>
+     
+
+        
+  
+  
+  
+  
+ 
+        <hr/>
+        <br/>
+        </div>
+        <div class="border2"></div>
+        
+        <div class="border"></div>
+        
+        
+        
+    
+        <div class="section">
+        <h2> HTML5</h2>
+        <hr/>  
+        <h3> Other interesting features </h3>
+       <p class="text"> 
+        
+        </p>
+        
+         <p class="pushin">The <code>&lt;dialog&gt;</code> tag is used to mark up a conversation<br/>
+      <span class="borders"> &lt;dialog&gt;conversation&lt;/dialog&gt;</span></p>
+
+        <p class="pushin">The <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> tags add a visual explanation to an image.<br/>
+      <span class="borders"> &lt;figure&gt;
+  &lt;img src="image.jpg" &gt;
+  &lt;figcaption&gt;Caption of image.&lt;/figcaption&gt;
+&lt;/figure&gt;</span></p>
+        <p class="pushin">The <code>&lt;canvas&gt;</code> tag draws a rectangular are on the HTML page and by default it has no border or content but it can be styled with CSS and javascript to draw graphics with it. Here is what a simple HTML example of this would look like:<br/>
+        <span class="borders"> &lt;canvas id="Canvas" width="200" height="100"&gt;&lt;/canvas&gt;</span> <br/>
+        <span class="borders">&lt;canvas id="Canvas1" width="200" height="100"&gt;&lt;/canvas&gt;</span> <br/>
+        <span class="borders">&lt;canvas id="Canvas2" width="200" height="100"&gt;&lt;/canvas&gt;  </span><br/>
+         <canvas style="background-color:red" id="Canvas" width="200" height="100"></canvas> <br/>
+         <canvas style="background-color:green" id="Canvas1" width="200" height="100"></canvas><br/>
+         <canvas style="background-color:blue" id="Canvas2" width="200" height="100"></canvas><br/>
+
+
+      <h3> Style Guide </h3>
+
+      <p class="pushin">Always use lower case element names. This is correct and will validate but it is bad practice:<br/>
+      &bull; Don't do:<br/>
+      <span class="borders"> &lt;HEADER&gt;Text&lt;/HEADER&gt;</span><br/>
+      &bull; Instead do:<br/>
+      <span class="borders"> &lt;header&gt;Text&lt;/header&gt;</span></p>
+
+      <p class="pushin"> Always close all elements. In HTML5 you don't have to close them but it is recommended following best practice:<br/>
+      &bull; Don't do:<br/>
+      <span class="borders"> &lt;p&gt;Text</span><br/>
+      &bull; Instead do:<br/>
+      <span class="borders"> &lt;p&gt;Text&lt;/p&gt;</span></p>
+
+      <p class="pushin"> Try using lower case names for attributes because it looks cleaner and is easier to write. Mixing lowercase and uppercase is bad.<br/>
+      &bull; Don't do:<br/>
+      <span class="borders"> &lt;p CLASS="text"&gt;Text&lt;/p&gt;</span><br/>
+      &bull; Don't do:<br/>
+      <span class="borders"> &lt;p cLaSs="text"&gt;Text&lt;/p&gt;</span><br/>
+      &bull; Instead do:<br/>
+      <span class="borders"> &lt;p class="text"&gt;Text&lt;/p&gt;</span></p>
+      <p class="pushin"> HTML5 allows you to add attributes without quotes. It is recommended to still quote values because it is easier to read and if the value containts spaces it will not work.<br/>
+      &bull; Won't work:<br/>
+      <span class="borders"> &lt;<span style="color:brown">table</span><span style="color:red"> class</span><span style="color:blue">=table</span> <span style="color:red">striped</span>&gt;</span><br/>
+      &bull; Don't do:<br/>
+      <span class="borders"> &lt;<span style="color:brown">table</span> <span style="color:red"> class</span><span style="color:blue">=striped</span>&gt;</span><br/>
+      &bull; Instead do:<br/>
+      <span class="borders"> &lt;<span style="color:brown">table</span> <span style="color:red"> class</span><span style="color:blue">="striped"</span>&gt;</span></p>
+      <p class="pushin">HTML5 allows spaces around the equal signs but it is better practice to put as less as you can because it is easier to read:<br/>
+      &bull; Don't do:<br/>
+      <span class="borders"> &lt;p class =  "text" &gt;Text&lt;/p&gt;</span><br/>
+      &bull; Instead do:<br/>
+      <span class="borders"> &lt;p class="text"&gt;Text&lt;/p&gt;</span></p>
+
+        
+
+
+       <hr/>
+       <br/>
+        
+        </div>
+   <div class="border2"></div>
+        
+        <div class="border"></div>
+        </body>
+</html>
